@@ -1,0 +1,26 @@
+{
+	"name": "Sales_SQLServer_Dynamic",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OnPrem_SQLsever",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"TableName": {
+				"type": "string",
+				"defaultValue": "Customer"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SalesLT",
+			"table": {
+				"value": "@{item().TableName}",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

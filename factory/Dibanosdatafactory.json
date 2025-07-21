@@ -1,0 +1,9 @@
+{
+	"name": "Dibanosdatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "26ebd339-b354-4c02-be0f-08f61c431ec6",
+		"tenantId": "19976bff-34c0-47cb-8212-7bbdffdc1aa3"
+	}
+}
