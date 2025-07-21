@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Dibanosdatafactory"
+		},
+		"Cloud_AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"Cloud_AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://dibanosdatalake.dfs.core.windows.net/"
+		},
+		"Dibanos_Linked_Key_Vault_properties_typeProperties_baseUrl": {
+			"value": "https://Dibanoskeyvault.vault.azure.net/"
+		},
+		"OnPrem_SQLsever_properties_typeProperties_server": {
+			"value": "D\\SQLEXPRESS"
+		},
+		"OnPrem_SQLsever_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2022"
+		},
+		"OnPrem_SQLsever_properties_typeProperties_userName": {
+			"value": "Dibanos"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
