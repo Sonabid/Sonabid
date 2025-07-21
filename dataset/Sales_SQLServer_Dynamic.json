@@ -17,7 +17,7 @@
 		"typeProperties": {
 			"schema": "SalesLT",
 			"table": {
-				"value": "@{item().TableName}",
+				"value": "@{dataset().TableName}",
 				"type": "Expression"
 			}
 		}
